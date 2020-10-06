@@ -5,6 +5,9 @@ import org.itstack.demo.design.matter.IIR;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 集群B
+ */
 public class IIRCacheAdapter implements ICacheAdapter {
 
     private IIR iir = new IIR();

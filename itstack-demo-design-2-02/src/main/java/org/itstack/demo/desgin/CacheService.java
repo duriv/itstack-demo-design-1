@@ -2,6 +2,9 @@ package org.itstack.demo.desgin;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ *
+ */
 public interface CacheService {
 
     String get(final String key);

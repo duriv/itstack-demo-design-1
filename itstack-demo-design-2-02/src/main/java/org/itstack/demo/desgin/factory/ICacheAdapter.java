@@ -2,6 +2,9 @@ package org.itstack.demo.desgin.factory;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 适配接口
+ */
 public interface ICacheAdapter {
 
     String get(String key);
